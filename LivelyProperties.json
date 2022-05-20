@@ -1,20 +1,65 @@
 {
-  "matrixColor": {
-    "text": "Font Color",
+  "characterColour": {
+    "text": "Character base colour",
     "type": "color",
     "value": "#00FF46"
   },
-  "rainbowSpeed": {
+  "colourChange": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Colour change"
+  },
+  "colourSpeed": {
     "max": 100,
     "min": 0,
-    "tick": 25,
-    "text": "Rainbow Speed",
+    "tick": 1,
+    "text": "Colour change speed",
+    "type": "slider",
+    "value": 5
+  },
+  "rainSpeedMs": {
+    "max": 100,
+    "min": 0,
+    "tick": 10,
+    "text": "Rain speed (Milliseconds)",
     "type": "slider",
     "value": 50
   },
-  "rainBow": {
-    "type": "checkbox",
-    "value": false,
-    "text": "Rainbow"
+  "fontSize": {
+    "max": 64,
+    "min": 8,
+    "tick": 2,
+    "text": "Font size",
+    "type": "slider",
+    "value": 14
+  },
+  "characters": {
+    "text": "Characters",
+    "type": "textbox",
+    "value": "゠アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789"
+  },
+  "randomOffset": {
+    "max": 10,
+    "min": 0,
+    "tick": 1,
+    "text": "Random offset",
+    "type": "slider",
+    "value": 0
+  },
+  "tailLengthBase": {
+    "max": 100,
+    "min": 0,
+    "tick": 1,
+    "text": "Tail length base",
+    "type": "slider",
+    "value": 25
+  },
+  "tailLengthDivider": {
+    "max": 1000,
+    "min": 10,
+    "tick": 10,
+    "text": "Tail length divider",
+    "type": "slider",
+    "value": 1000
   }
 }
